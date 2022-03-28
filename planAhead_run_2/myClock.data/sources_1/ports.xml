@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="AN">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="C">
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="CP_100MHz" Dir="IN"/>
+		<Port Id="nCLR" Dir="IN"/>
+		<Port Id="EN" Dir="IN"/>
+		<Port Id="Adj_Minute" Dir="IN"/>
+		<Port Id="Adj_Hour" Dir="IN"/>
+		<Port Id="Trans" Dir="IN"/>
+		<Port Id="AdjH" Dir="IN"/>
+		<Port Id="AdjM" Dir="IN"/>
+		<Port Id="Alarm" Dir="IN"/>
+		<Port Id="Ring" Dir="IN"/>
+		<Port Id="DP" Dir="OUT"/>
+		<Port Id="Di" Dir="OUT"/>
+		<Port Id="Alert" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

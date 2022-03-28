@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 27 19:40:32 2022
+# Process ID: 972
+# Log file: C:/Users/eoyoes/myClock/myClock/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/eoyoes/myClock/myClock/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/eoyoes/myClock/myClock/pa.fromNetlist.tcl

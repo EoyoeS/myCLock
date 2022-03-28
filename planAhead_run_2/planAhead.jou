@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 27 19:47:50 2022
+# Process ID: 1604
+# Log file: C:/Users/eoyoes/myClock/myClock/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/eoyoes/myClock/myClock/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/eoyoes/myClock/myClock/pa.fromNetlist.tcl
+startgroup
+set_property package_pin U2 [get_ports Alarm]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports Ring]
+endgroup
+startgroup
+set_property package_pin R2 [get_ports Alert]
+endgroup
+startgroup
+set_property package_pin U4 [get_ports AdjH]
+endgroup
+startgroup
+set_property package_pin V5 [get_ports AdjM]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list AdjH]]
+set_property iostandard LVCMOS18 [get_ports [list AdjM]]
+set_property iostandard LVCMOS18 [get_ports [list Alarm]]
+set_property iostandard LVCMOS18 [get_ports [list Alert]]
+set_property iostandard LVCMOS18 [get_ports [list Ring]]
+save_constraints
